@@ -1,6 +1,6 @@
 {
   "homepage": "http://viakeegan.github.io/20-react-portfolio",
-  "name": "my-app",
+  "name": "20-react-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,7 +9,7 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "^5.0.0",
+    "react-scripts": "^3.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
