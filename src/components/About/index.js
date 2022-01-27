@@ -1,4 +1,5 @@
 import React from "react";
+import photo from '../../assets/images/IMG_0473.JPG'
 
 function About() {
     return (
