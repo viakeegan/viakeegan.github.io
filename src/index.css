@@ -70,7 +70,6 @@ header h2 {
   color: #ffffff;
   margin: 5px;
   border: 5px solid var(--red);
-  border-color: #ffffff;
   padding: 20px;
   text-align: center;
 }

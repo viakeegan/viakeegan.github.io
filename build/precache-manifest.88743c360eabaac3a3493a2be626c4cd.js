@@ -1,31 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4435a2dc4d7300da78357cc61b2a2c90",
+    "revision": "8eef5bb01c407d93d2798efd5e3e06ed",
     "url": "/20-react-portfolio/index.html"
   },
   {
-    "revision": "dfe61a5d89e2ee6e44f6",
-    "url": "/20-react-portfolio/static/css/main.363ba096.chunk.css"
+    "revision": "cbdf8a970cac77809b61",
+    "url": "/20-react-portfolio/static/css/main.23932245.chunk.css"
   },
   {
-    "revision": "cff7ee00486063e30c9b",
-    "url": "/20-react-portfolio/static/js/2.c522362d.chunk.js"
+    "revision": "0e294312c90d6577dde4",
+    "url": "/20-react-portfolio/static/js/2.1613430b.chunk.js"
   },
   {
-    "revision": "00330752ade665012574",
-    "url": "/20-react-portfolio/static/js/3.9881a070.chunk.js"
+    "revision": "db569b567d12d48e4e61",
+    "url": "/20-react-portfolio/static/js/3.d51c813c.chunk.js"
   },
   {
-    "revision": "dfe61a5d89e2ee6e44f6",
-    "url": "/20-react-portfolio/static/js/main.88cfb080.chunk.js"
+    "revision": "cbdf8a970cac77809b61",
+    "url": "/20-react-portfolio/static/js/main.cf22fc1a.chunk.js"
   },
   {
-    "revision": "4b9291885b68d4859724",
-    "url": "/20-react-portfolio/static/js/runtime~main.43772b20.js"
+    "revision": "590bedc6d5cb99b7ddb4",
+    "url": "/20-react-portfolio/static/js/runtime~main.07500956.js"
   },
   {
     "revision": "2ab3e92d218e92f54e027c6a42852f4d",
     "url": "/20-react-portfolio/static/media/DSC9074.2ab3e92d.png"
+  },
+  {
+    "revision": "70cc7cf15dd9da8289e44ffa7c0f6265",
+    "url": "/20-react-portfolio/static/media/book-search.70cc7cf1.PNG"
   },
   {
     "revision": "12d7dda20fd7b8495d071127a019f0e8",
@@ -34,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "39a6a554d6e4c36ee4e307c7ff811c60",
     "url": "/20-react-portfolio/static/media/github-10-512.39a6a554.png"
+  },
+  {
+    "revision": "4852f445f44c6ef6bf4fb9cfa5f0e033",
+    "url": "/20-react-portfolio/static/media/interview-key.4852f445.PNG"
   },
   {
     "revision": "fb595be1a0e06bf7eca2b10f3b0e7072",
