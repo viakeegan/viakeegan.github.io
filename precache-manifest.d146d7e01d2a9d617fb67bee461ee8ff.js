@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "07865f2b4271ed482fd3bf41f03a592c",
+    "revision": "a7ce163658088104d7b39d9bb65474e9",
     "url": "/index.html"
   },
   {
-    "revision": "a4e378e9d2a817fbc799",
+    "revision": "8fde483c5964c146ff4b",
     "url": "/static/css/main.67ddad1b.chunk.css"
   },
   {
-    "revision": "07efb38eac999d69572c",
-    "url": "/static/js/2.a3058a34.chunk.js"
+    "revision": "6f2f6c18ab2cae6f2b93",
+    "url": "/static/js/2.2e4deddf.chunk.js"
   },
   {
-    "revision": "e2aa523fcf964839130f",
-    "url": "/static/js/3.ec459d4c.chunk.js"
+    "revision": "114a46de5c05ca60e778",
+    "url": "/static/js/3.c7b6313b.chunk.js"
   },
   {
-    "revision": "a4e378e9d2a817fbc799",
-    "url": "/static/js/main.67fb1d61.chunk.js"
+    "revision": "8fde483c5964c146ff4b",
+    "url": "/static/js/main.657b6cbd.chunk.js"
   },
   {
-    "revision": "97f112e51c40df930ed5",
-    "url": "/static/js/runtime~main.fccc4d2f.js"
+    "revision": "26c9b0f9ebc16c196058",
+    "url": "/static/js/runtime~main.76be6281.js"
   },
   {
     "revision": "2ab3e92d218e92f54e027c6a42852f4d",
@@ -42,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4852f445f44c6ef6bf4fb9cfa5f0e033",
     "url": "/static/media/interview-key.4852f445.PNG"
+  },
+  {
+    "revision": "34ef6d48ba0633190cc23f87d1a5805c",
+    "url": "/static/media/keegan-jervis-resume-2022.34ef6d48.pdf"
   },
   {
     "revision": "fb595be1a0e06bf7eca2b10f3b0e7072",
