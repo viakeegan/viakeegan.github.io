@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import icon from '../../assets/images/github-icon.png';
 
 function Project(props) {

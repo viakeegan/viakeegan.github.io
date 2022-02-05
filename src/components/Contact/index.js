@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import linkedIn from '../../assets/images/linkedin--v2.png';
 import github from '../../assets/images/github--v1.png';
 import emailIcon from '../../assets/images/new-post.png';
@@ -8,7 +8,7 @@ function ContactForm() {
   
   return (
     <section className="contactForm">
-      <h2 data-testid="h1tag" className="mx-2">Contact me</h2>
+      <h2 data-testid="h1tag" className="mx-2">Contact Me</h2>
       <div className="footer-icons">
       <a href="mailto:viakeegan@gmail.com" className="mx-2 icon">
           <img src={emailIcon}/> <p class="icon-text">Email</p>
