@@ -10,7 +10,7 @@ function Header(props) {
   return (
     <header className="px-1">
       <h2>
-        KEESPARC
+      <a data-testid="link" href="/">KEESPARC</a>
       </h2>
     <Nav
       categories={categories}

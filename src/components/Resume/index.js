@@ -1,5 +1,6 @@
 import React from "react";
 import { Row, Col } from 'react-bootstrap';
+import ResumePDF from '../../assets/images/keegan-jervis-resume-2022.pdf'
 
 function Resume() {
   return (
@@ -22,8 +23,8 @@ function Resume() {
                 </ul>
                 </Col>
         
-            <Col lg={4} md={12}>
-            <h2 class="resume">Back-end Technologies</h2>
+                <Col lg={4} md={12}>
+                <h2 class="resume">Back-end Technologies</h2>
                 <ul>
                     <li>Node.js</li>
                     <li>Express.js</li>
@@ -33,11 +34,11 @@ function Resume() {
                     <li> API's (web, third-party, RESTful, server-side)</li>
                     <li>Templating language (Handlebars)</li>
                 </ul>
-            </Col>
+                </Col>
 
-            <Col lg={4} md={12}>
-            <h2 class="resume">Additional Skills</h2>
-                <ul>
+                <Col lg={4} md={12}>
+                 <h2 class="resume">Additional Skills</h2>
+                    <ul>
                     <li>Git</li>
                     <li>GitHub</li>
                     <li>Heroku</li>
@@ -46,31 +47,37 @@ function Resume() {
                     <li>Adobe Creative Suite</li>
                     <li>Google Docs Suite</li>
                     <li>Open Broadcast Software (OBS/StreamLabsOBS)</li>
-                </ul>
-            </Col>
+                    </ul>
+                 </Col>
 
-            <Col lg={4} md={12}>
-            <h2 class="resume">My Education</h2>
-            <p>
-                <span className="school-name">UNIVERSITY of CENTRAL FLORIDA</span><br></br>
+                 <Col lg={4} md={12}>
+                <h2 class="resume">My Education</h2>
+                <p>
+                <span className="school-name">UNIVERSITY of CENTRAL FLORIDA</span>
+                <br></br>
                 Full Stack Boot Camp - Certification 
                 <br></br>
                 <br></br>
-                <span className="school-name">UNIVERSITY of NORTH FLORIDA</span><br></br>
+                <span className="school-name">UNIVERSITY of NORTH FLORIDA</span>
+                <br></br>
                  Marketing & Logistics - Bachelor of Business Admin.
                 <br></br>
              </p>
-            </Col>
+             </Col>
 
-        <Col lg={4} md={12}>
+                <Col lg={4} md={12}>
         
-        </Col>
-        </Row>
-        </div>
-        <h2 className="mx-2"><a style={{'text-decoration': 'underline'}} href="https://docs.google.com/document/d/1AsFjjCUxM-cDBLCPAifB0dEAZxMcsQiwKuEc31wuBc8/edit?usp=sharing">View Resume.</a></h2>
-        <Col lg={4} md={12}>
+                </Col>
+             </Row>
+             </div>
+                <Col lg={4} md={12}>
+
+                <Col lg={3} md={12}>
+                    <a href={ResumePDF} download><img src="https://img.icons8.com/doodle/120/000000/pdf-2.png" alt="resume" /></a>
+                    
+               </Col>
  
-    </Col>
+         </Col>
     </div>
   );
 }

@@ -15,7 +15,7 @@ function Footer() {
         </a>
         <a href="https://stackoverflow.com/users/16645814/keegan-jervis" className="mx-2 icon">
           <img src={stackOverflow}/>
-        </a>
+        </a> 
       </div>
     </footer>
   );
