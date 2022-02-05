@@ -37,26 +37,9 @@ function ContactForm() {
   return (
     <section className="contactForm">
       <h2 data-testid="h1tag" className="mx-2">Contact me</h2>
-      <form id="contact-form" onSubmit={handleSubmit} className="mx-2">
-        <div className="my-2">
-          <label htmlFor="name">Name:</label>
-          <input type="text" name="name" defaultValue={name} onBlur={handleChange} style={{width: '100%'}} />
-        </div>
-        <div className="my-2">
-          <label htmlFor="email">Email address:</label>
-          <input type="email" name="email" defaultValue={email} onBlur={handleChange} style={{width: '100%'}}/>
-        </div>
-        <div className="my-2">
-          <label htmlFor="message">Message:</label>
-          <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
-        </div>
-        {errorMessage && (
-          <div>
-            <p className="error-text">{errorMessage}</p>
-          </div>
-        )}
-        <button type="submit" data-testid="button">Submit</button>
-      </form>
+      <p className="mx-2"><a style={{'text-decoration': 'underline'}} href="mailto:viakeegan@gmail.com">Email</a></p>
+      <p className="mx-2"><a style={{'text-decoration': 'underline'}} href="https://github.com/viakeegan">GitHub</a></p>
+      <p className="mx-2"><a style={{'text-decoration': 'underline'}} href="https://twitter.com/keesparc">Twitter</a></p>
     </section>
   )
 }

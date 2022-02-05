@@ -4,7 +4,7 @@ import photo from '../../assets/images/DSC9074.png'
 function About() {
     return (
       <div className="about-me">
-        <h2 className="mx-2" style={{'flex': '100%'}}>About Me</h2>
+        <h2 className="mx-2" style={{'flex': '100%'}}>Keegan Jervis</h2>
         <div className="mx-2 about-me-box">
           <img src={photo} />
           <p className="mx-2" style={{'margin-top': 0}}>
