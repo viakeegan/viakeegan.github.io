@@ -1,45 +1,28 @@
 import React, {useState} from "react";
-import {validateEmail, capitalizeFirstLetter} from '../../utils/helpers';
+import linkedIn from '../../assets/images/linkedin--v2.png';
+import github from '../../assets/images/github--v1.png';
+import emailIcon from '../../assets/images/new-post.png';
+import TwitterIcon from '../../assets/images/twitter-circled.png'
 
 function ContactForm() {
-  const [errorMessage, setErrorMessage] = useState('');
-  const [formState, setFormState] = useState({name: '', email: '', message: ''});
-  const {name, email, message} = formState;
-
-  function handleChange(e) {
-    if (e.target.name === 'email') {
-      const isValid = validateEmail(e.target.value);
-      console.log(isValid);
-      
-      if (!isValid) {
-        setErrorMessage('Your email is invalid')
-      } else {
-        setErrorMessage('');
-      }
-    } else {
-      if (!e.target.value.length) {
-        setErrorMessage(`${capitalizeFirstLetter(e.target.name)} is required`)
-      } else {
-        setErrorMessage('');
-      }
-    } 
-
-    if (!errorMessage) {
-      setFormState({...formState, [e.target.name]: e.target.value});
-    }
-  }
-
-  function handleSubmit(e) {
-    e.preventDefault();
-    console.log(formState);
-  }
-
+  
   return (
     <section className="contactForm">
       <h2 data-testid="h1tag" className="mx-2">Contact me</h2>
-      <p className="mx-2"><a style={{'text-decoration': 'underline'}} href="mailto:viakeegan@gmail.com">Email</a></p>
-      <p className="mx-2"><a style={{'text-decoration': 'underline'}} href="https://github.com/viakeegan">GitHub</a></p>
-      <p className="mx-2"><a style={{'text-decoration': 'underline'}} href="https://twitter.com/keesparc">Twitter</a></p>
+      <div className="footer-icons">
+      <a href="mailto:viakeegan@gmail.com" className="mx-2 icon">
+          <img src={emailIcon}/> <p class="icon-text">Email</p>
+        </a>
+        <a href="https://github.com/viakeegan" className="mx-2 icon">
+          <img src={github}/> <p class="icon-text">GitHub</p>
+        </a>
+        <a href="https://www.linkedin.com/in/keeganjervis/" className="mx-2 icon">
+          <img src={linkedIn}/> <p class="icon-text">LinkedIn</p>
+        </a>
+        <a href="https://twitter.com/keesparc" className="mx-2 icon">
+          <img src={TwitterIcon}/> <p class="icon-text">Twitter</p>
+        </a>
+      </div>
     </section>
   )
 }

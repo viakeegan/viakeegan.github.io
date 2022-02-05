@@ -1,4 +1,5 @@
-import React, {useEffect} from "react";
+import React from "react";
+import { Row, Col } from 'react-bootstrap';
 
 function Resume() {
   return (
@@ -30,6 +31,77 @@ function Resume() {
           <li>Adobe Creative Suite</li>
         </ul>
       </div>
+
+      <div class="resume-container">
+            <Row>
+                <Col lg={4} md={12}>
+                <h2 class="resume">font-end technologies</h2>
+                <ul>
+                    <li>
+                        HTML
+                    </li>
+                    <li>
+                        CSS
+                    </li>
+                    <li>
+                        JavaScript
+                    </li>
+                    <li>
+                        jQuery
+                    </li>
+                    <li>
+                        React.js
+                    </li>
+                    <li>
+                        Framework (Bootstrap, Materalize)
+                    </li>
+                    <li>
+                        UI/UX Design
+                    </li>
+                    <li>
+                        Responsive Web Design
+                    </li>
+                </ul>
+                </Col>
+        
+            <Col lg={4} md={12}>
+            <h2 class="resume">back-end technologies</h2>
+                <ul>
+                    <li>
+                        Node.js
+                    </li>
+                    <li>
+                        Express.js
+                    </li>
+                    <li>
+                        MySQL (mysql lite3, mysql2)
+                    </li>
+                    <li>
+                        NoSQL (MongoDB, Mongoose)
+                    </li>
+                    <li>
+                        API's (web, third-party, RESTful, server-side)
+                    </li>
+                    <li>
+                        Templating language (Handlebars)
+                    </li>
+                </ul>
+            </Col>
+
+        <Col lg={4} md={12}>
+        <h2 class="education">my education</h2>
+        <p>
+          <span className="school-name">UC BERKELEY EXTENSION</span><br></br>
+          Full Stack Boot Camp - Certification 
+          <br></br>
+          <br></br>
+          <span className="school-name">SAN FRANCISCO STATE UNIVERSITY</span><br></br>
+          Business Admin & Management - BS
+          <br></br>
+        </p>
+        </Col>
+        </Row>
+        </div>
     </div>
   );
 }

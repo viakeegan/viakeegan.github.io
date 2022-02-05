@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import React from "react";
 import linkedIn from '../../assets/images/linkedin-logo-white.png';
 import github from '../../assets/images/github-10-512.png';
 import stackOverflow from '../../assets/images/stackoverflow-512.png'
