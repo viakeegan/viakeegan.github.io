@@ -8,7 +8,7 @@ function Resume() {
       <div class="resume-container">
             <Row>
                 <Col lg={4} md={12}>
-                <h2 class="resume">Font-end Technologies</h2>
+                <h2 class="resume">Front-end Technologies</h2>
                 <ul>
                     <li>HTML</li>
                     <li>CSS</li>

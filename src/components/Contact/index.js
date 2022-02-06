@@ -10,7 +10,7 @@ function ContactForm() {
     <section className="contactForm">
       <h2 data-testid="h1tag" className="mx-2">Contact Me</h2>
       <div className="footer-icons">
-      <a href="mailto:viakeegan@gmail.com" className="mx-2 icon">
+        <a href="mailto:viakeegan@gmail.com" className="mx-2 icon">
           <img src={emailIcon}/> <p class="icon-text">Email</p>
         </a>
         <a href="https://github.com/viakeegan" className="mx-2 icon">
